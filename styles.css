@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+ body{
+    background-color: rgb(245, 245, 214);
+
+    font: normal 16px 'Roboto', sans-serif
+ }
+h1{
+  text-align: center;
+}
+ .bg-yellow{
+   background-color: rgba(212, 212, 135, 0.521);
+   box-shadow: 0px 0px 14px 5px rgba(212, 212, 135, 0.521);
+ }
+ .bg-blue{
+   background-color: rgba(140, 240, 235, 0.616);
+   box-shadow: 0px 0px 14px 5px rgba(140, 240, 235, 0.616);
+ }
+ .bg-green{
+   background-color: rgba(128, 236, 146, 0.678);
+   box-shadow: 0px 0px 14px 5px rgba(128, 236, 146, 0.678);
+ }
+ .bg-red{
+   background-color: rgba(240, 192, 245, 0.623);
+   box-shadow: 0px 0px 14px 5px rgba(240, 192, 245, 0.623);
+ }
+ .bg-violet{
+   background-color: rgba(161, 170, 243, 0.527);
+   box-shadow: 0px 0px 14px 5px rgba(161, 170, 243, 0.527);
+ }
+ .bg-orange{
+   background-color: rgba(255, 228, 196, 0.76);
+   box-shadow: 0px 0px 14px 5px rgba(255, 228, 196, 0.603);
+ }
+
+ .card{
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    
+  }
+ .list{
+padding: 0px 20px;
+ }
+ .list li{
+   color:rgb(95, 95, 95);
+   margin: 10px;
+
+ }
+ .table {
+  width: 100%;
+ }
+ .table td {
+  padding-bottom: 5px;
+  font-weight: bold;
+ }
+ .table td:nth-child(2), .table td:nth-child(3){
+  color:rgb(95, 95, 95)
+ }
+ a{
+    color: black;
+    text-decoration: none;
+ }
+ a:hover{
+    text-decoration: underline;
+ }
+a:visited{
+    color: rgb(95, 95, 95);
+}
+
+ .avatar{
+    width: 400px;
+    border-radius: 24px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25)
+ }
+
+ .info{
+  display: flex;
+  margin-bottom: 20px;
+ }
+
+ @media (max-width:700px) {
+    .info {
+      text-align: center;
+      display:block;
+    }
+ }
+
+ .info-text{
+  margin-left: 20px;
+ }
+ .info-text h4{
+  margin-bottom: 10px;
+ }
+ .info p{
+    color: gray;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: capitalize; трансформация текста, типа всё капсом, все с маленькой, каждое слово с большой буквы тыры пыры*/
+    /* letter-spacing: 5px; размер пропуска между символами */
+    /* word-spacing: 42px; размер пропуска между словами */
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.link-list{
+  list-style: none;
+  padding: 5px 20px;
+}
+.link-list li{
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(153, 152, 152);
+}
+
+.contact h3{
+  text-align: center;
+}
+
+.form-group label{
+  display: block;
+  font-size: 16px;
+  color: rgb(86, 86, 86);
+  padding-bottom: 5px;
+}
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border:none;
+  background-color:rgba(243, 243, 243, 0.712);
+  box-shadow: 0px 0px 10px 5px rgba(243, 243, 243, 0.712);
+  border-bottom: 1px solid rgba(134, 146, 236, 0.616);
+  color:#000;
+  padding: 5px 0px 5px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 15px;
+}
+.row > .form-group{
+  width: 50%;
+  margin-right: 20px;
+}
+.row > .form-group:last-child{
+  margin-right: 0px;
+}
+.btn{
+  padding: 10px 10px;
+  margin-top: 10px;
+  background:rgba(255, 255, 255, 0.712);
+  box-shadow: 0px 0px 10px 5px rgba(168, 168, 168, 0.712);
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  opacity: 0.9;
+}
